@@ -1,0 +1,48 @@
+. ==============================
+. 'DEPLOY' APPLICATION 
+. ==============================
+
+NETLIFY
+GITHUB
+VERCEL 
+
+1. SETUP REPOSITORY AT THE GITHUB ACCOUNT 
+
+-> Signup to your GitHub account 
+-> Create new repository 'backroads'
+-> Public
+-> Click 'Create repository'
+
+-> Copy provided commands: 
+................................
+git remote add origin https://github.com/Ryevh/backroads.git
+git branch -M main
+git push -u origin main
+
+2. GO TO INTEGRATED TERMINAL TO RUN FOLLOWING COMMANDS 
+
+- RUN COMMAND TO REMOVE EXISTING GIT REPO 
+................................
+rm -rf .git
+
+- RUN COMMAND TO INITIALIZE GIT 
+................................
+git init 
+
+- RUN COMMAND TO ADD YOUR ALL PROJECT FILES 
+................................
+git add .
+
+- RUN COMMAND TO COMMIT FILES 
+................................
+git commit -m "first commit"
+
+THEN LETS RUN FOLLOWING COMMANDS TO PUSH OUR PROJECT TO GIT REPOSITORY 
+
+- RUN COMMANDS TO PUSH FILES TO REPOSITORY
+................................
+git remote add origin https://github.com/Ryevh/backroads.git
+
+
+
+
