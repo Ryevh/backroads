@@ -19,7 +19,7 @@ git remote add origin https://github.com/Ryevh/backroads.git
 git branch -M main
 git push -u origin main
 
-2. GO TO INTEGRATED TERMINAL TO RUN FOLLOWING COMMANDS 
+2. GO TO INTEGRATED TERMINAL TO RUN FOLLOWING COMMANDS TO PUSH PROJECT FILES TO THE GITHUB REPOSITORY 
 
 - RUN COMMAND TO REMOVE EXISTING GIT REPO 
 ................................
@@ -42,7 +42,15 @@ THEN LETS RUN FOLLOWING COMMANDS TO PUSH OUR PROJECT TO GIT REPOSITORY
 - RUN COMMANDS TO PUSH FILES TO REPOSITORY
 ................................
 git remote add origin https://github.com/Ryevh/backroads.git
+git branch -M main
+git push -u origin main
 
+3. GO TO NETLIFY HOSTING PLATFORM TO IMPORT THE EXISTING PROJECT LOCATED IN THE CREATED REPOSITORY 
 
+-> Add new site 
+-> Import an existing project 
+-> Click 'GitHub'
+-> Type repo name of your project in input field 'backroads'
+-> Click 'Deploy site'
 
-
+# NOTE: in result Netlify will built-up the production version & deploy it 
